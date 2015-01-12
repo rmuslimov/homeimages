@@ -7,7 +7,7 @@ Get all photos and videos sync-ed. Two scripts to sync photos and videos from ex
 
    ..
 
-     $ python homeimages.py
+     $ python copyimages.py
 
    This will walk through all existing jpg-files on SD, and copy to destination folder ( skip existing if found )
 
@@ -15,6 +15,6 @@ Get all photos and videos sync-ed. Two scripts to sync photos and videos from ex
 
    ..
 
-     $ python homevideos.py
+     $ python copyvideos.py
 
    Same as photos for mov-files, with convertion to AVI format (requires ffmpeg installed)
